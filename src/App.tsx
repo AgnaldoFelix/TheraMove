@@ -8,6 +8,9 @@ import Dashboard from "./pages/Dashboard";
 import Agenda from "./pages/Agenda";
 import Patients from "./pages/Patients";
 import Messages from "./pages/Messages";
+import Notifications from "./pages/Notifications";
+import NewPatient from "./pages/NewPatient";
+import Sessions from "./pages/Sessions";
 import NotFound from "./pages/NotFound";
 import { useAuthStore } from "./store/authStore";
 
@@ -56,6 +59,30 @@ const App = () => (
             element={
               <ProtectedRoute>
                 <Messages />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/notifications"
+            element={
+              <ProtectedRoute>
+                <Notifications />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/patients/new"
+            element={
+              <ProtectedRoute>
+                <NewPatient />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/sessions"
+            element={
+              <ProtectedRoute>
+                <Sessions />
               </ProtectedRoute>
             }
           />

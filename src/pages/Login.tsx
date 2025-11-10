@@ -45,6 +45,25 @@ const Login = () => {
           </CardDescription>
         </CardHeader>
         <CardContent>
+          {/* Credenciais de teste */}
+          <div className="mb-6 bg-muted/50 rounded-lg p-4 space-y-2 text-xs border">
+            <p className="font-semibold text-foreground mb-2">👥 Contas de teste disponíveis:</p>
+            <div className="space-y-1.5 text-muted-foreground">
+              <p>
+                <span className="font-medium text-foreground">Admin:</span> admin@tita.com / admin123
+              </p>
+              <p>
+                <span className="font-medium text-foreground">Clínica:</span> clinica@tita.com / clinica123
+              </p>
+              <p>
+                <span className="font-medium text-foreground">Profissional:</span> profissional@tita.com / prof123
+              </p>
+              <p>
+                <span className="font-medium text-foreground">Responsável:</span> responsavel@tita.com / resp123
+              </p>
+            </div>
+          </div>
+
           <form onSubmit={handleLogin} className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>

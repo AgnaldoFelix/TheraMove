@@ -39,7 +39,7 @@ const Login = () => {
               <Activity className="h-10 w-10 text-primary" />
             </div>
           </div>
-          <CardTitle className="text-2xl font-bold">TiTa Therapy</CardTitle>
+          <CardTitle className="text-2xl font-bold">TheraMove</CardTitle>
           <CardDescription>
             Sistema de gestão de terapias e acompanhamento
           </CardDescription>
@@ -50,16 +50,16 @@ const Login = () => {
             <p className="font-semibold text-foreground mb-2">👥 Contas de teste disponíveis:</p>
             <div className="space-y-1.5 text-muted-foreground">
               <p>
-                <span className="font-medium text-foreground">Admin:</span> admin@tita.com / admin123
+                <span className="font-medium text-foreground">Admin:</span> admin@tera.com / tera123
               </p>
               <p>
-                <span className="font-medium text-foreground">Clínica:</span> clinica@tita.com / clinica123
+                <span className="font-medium text-foreground">Clínica:</span> clinica@tera.com / tera123
               </p>
               <p>
-                <span className="font-medium text-foreground">Profissional:</span> profissional@tita.com / prof123
+                <span className="font-medium text-foreground">Profissional:</span> profissional@tera.com / tera123
               </p>
               <p>
-                <span className="font-medium text-foreground">Responsável:</span> responsavel@tita.com / resp123
+                <span className="font-medium text-foreground">Responsável:</span> responsavel@tera.com / tera123
               </p>
             </div>
           </div>

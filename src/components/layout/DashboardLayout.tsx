@@ -118,7 +118,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
             <div className="h-8 w-8 rounded-lg bg-primary/10 flex items-center justify-center">
               <Home className="h-5 w-5 text-primary" />
             </div>
-            <span className="font-semibold text-lg">TiTa Therapy</span>
+            <span className="font-semibold text-lg">TheraMove</span>
           </div>
 
           <Button variant="ghost" size="icon" onClick={() => navigate('/notifications')}>
